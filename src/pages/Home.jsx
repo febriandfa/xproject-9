@@ -19,14 +19,17 @@ const Home = () => {
         <EventCardRight
           title="Tech Genius"
           desc="Informatic Championship (IC) adalah sebuah ajang perlombaan atau kompetisi yang  bertujuan untuk mengasah kemampuan dan keterampilan peserta di bidang teknologi, sehingga dapat menciptakan berbagai inovasi baru di masa yang akan datang, yang dikemas dalam berbagai jenis perlombaan"
+          link="https://github.com/"
         />
         <EventCardLeft
           title="Informatic Championship"
           desc="Informatic Championship (IC) adalah sebuah ajang perlombaan atau kompetisi yang  bertujuan untuk mengasah kemampuan dan keterampilan peserta di bidang teknologi, sehingga dapat menciptakan berbagai inovasi baru di masa yang akan datang, yang dikemas dalam berbagai jenis perlombaan"
+          link="https://www.youtube.com/"
         />
         <EventCardRight
           title="Techno Symphony"
           desc="Techno Symphony adalah kegiatan akhir dari X-Project 9.0, kegiatan yang bertujuan untuk meningkatkan pengetahuan tentang rumpun teknik informatika bagi mahasiswa TI Unesa dan menjadi wadah kreatifitas seni Mahasiswa"
+          link="https://stackoverflow.com/questions/70504047/how-to-have-a-bordered-text-in-tailwind"
         />
       </div>
     </div>

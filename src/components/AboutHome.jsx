@@ -1,5 +1,6 @@
 import React from "react";
 import { logoXpro9 } from "../assets";
+import Button from "./Button";
 
 const AboutHome = () => {
   return (
@@ -11,13 +12,11 @@ const AboutHome = () => {
             <h2 className="relative font-outline-1 text-transparent">ABOUT X-PROJECT</h2>
             <h2 className="absolute top-[0.15rem] -right-[0.27rem] w-full">ABOUT X-PROJECT</h2>
           </div>
-          <p className="text-lg lg:text-2xl">
+          <p className="text-lg lg:text-2xl mb-4">
             X-Project merupakan acara tahunan yang diadakan oleh himti UNESA. X-Project 9.0 memiliki serangkaian acara yang meliputi kegiatan pelatihan, pembelajaran pada bidang keahlian tertentu, perlombaan, IT expo, kewirausahaan dan
             pertunjukan yang bertujuan untuk mengenalkan HIMTI UNESA.
           </p>
-          <a className="text-lg lg:text-2xl py-2 lg:py-3 px-5 lg:px-8 bg-blue-600 border-2 border-blue-300 w-fit rounded hover:bg-blue-700" href="">
-            See More
-          </a>
+          <Button link="https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke" />
         </div>
       </div>
     </div>
