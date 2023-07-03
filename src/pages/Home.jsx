@@ -4,21 +4,29 @@ import HeroTitle from "../components/HeroTitle";
 import AboutHome from "../components/AboutHome";
 import EventCardRight from "../components/EventCardRight";
 import EventCardLeft from "../components/EventCardLeft";
-import { medpart1, randomGraphic } from "../assets";
+import { medpart1, randomGraphic, sponsor1 } from "../assets";
 import HomeTitle from "../components/HomeTitle";
 import SponsorContainer from "../components/SponsorContainer";
 import Background from "../components/Background";
+import Footer from "../components/Footer";
 
 const Home = () => {
-  const images = [
+  const imagesMedpart = [
     { index: 1, src: medpart1, alt: "Logo1", class: "w-32" },
     { index: 2, src: medpart1, alt: "Logo2", class: "w-32" },
     { index: 3, src: medpart1, alt: "Maskot", class: "w-32" },
     { index: 4, src: medpart1, alt: "Maskot", class: "w-32" },
   ];
 
+  const imagesSponsor = [
+    { index: 1, src: sponsor1, alt: "Logo1", class: "w-32" },
+    { index: 2, src: sponsor1, alt: "Logo2", class: "w-32" },
+    { index: 3, src: sponsor1, alt: "Maskot", class: "w-32" },
+    { index: 4, src: sponsor1, alt: "Maskot", class: "w-32" },
+  ];
+
   return (
-    <div className="">
+    <div className="font-poppins">
       <Navbar />
       <HeroTitle title="X - Project" />
       <div className="bg-gradient-to-b from-blue-1000 to-blue-400">
@@ -43,11 +51,12 @@ const Home = () => {
           link="https://stackoverflow.com/questions/70504047/how-to-have-a-bordered-text-in-tailwind"
         />
         <HomeTitle title="Sponsored By" />
-        <SponsorContainer images={images} />
+        <SponsorContainer images={imagesSponsor} />
         <HomeTitle title="Media Partner" />
-        <SponsorContainer images={images} />
+        <SponsorContainer images={imagesMedpart} />
         <Background />
       </div>
+      <Footer />
     </div>
   );
 };

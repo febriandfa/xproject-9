@@ -10,5 +10,12 @@ import layer2 from "./layers/Layer-02.svg";
 import layer3 from "./layers/Layer-03.svg";
 import layer4 from "./layers/Layer-04.svg";
 import medpart1 from "./img/medpart-1.png";
+import sponsor1 from "./img/sponsor-1.png";
+import instagram from "./icons/instagram.svg";
+import linkedin from "./icons/linkedin.svg";
+import spotify from "./icons/spotify.svg";
+import youtube from "./icons/youtube.svg";
+import logoHimti from "./img/himti.svg";
+import logoUnesa from "./img/unesa.svg";
 
-export { logoXpro, logoXpro9, mascotXpro, batuBesar, randomGraphic, arrowDown, layer0, layer1, layer2, layer3, layer4, medpart1 };
+export { logoXpro, logoXpro9, mascotXpro, batuBesar, randomGraphic, arrowDown, layer0, layer1, layer2, layer3, layer4, medpart1, sponsor1, instagram, linkedin, spotify, youtube, logoHimti, logoUnesa };
