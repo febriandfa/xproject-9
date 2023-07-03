@@ -1,3 +1,4 @@
+import Essay from "./pages/Championship/EssayCompetition";
 import Home from "./pages/Home";
 
 function App() {
