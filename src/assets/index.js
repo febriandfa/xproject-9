@@ -1,4 +1,5 @@
 import logoXpro from "./img/logo.svg";
+import logoXpro9 from "./img/logo-xpro9.svg";
 import mascotXpro from "./img/mascot.svg";
 import batuBesar from "./img/batu-besar.png";
 import arrowDown from "./icons/arrow-down.svg";
@@ -8,4 +9,4 @@ import layer2 from "./layers/Layer-02.svg";
 import layer3 from "./layers/Layer-03.svg";
 import layer4 from "./layers/Layer-04.svg";
 
-export { logoXpro, mascotXpro, batuBesar, arrowDown, layer0, layer1, layer2, layer3, layer4 };
+export { logoXpro, logoXpro9, mascotXpro, batuBesar, arrowDown, layer0, layer1, layer2, layer3, layer4 };
