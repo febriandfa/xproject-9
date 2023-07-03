@@ -4,8 +4,8 @@ import Button from "./Button";
 
 const AboutHome = () => {
   return (
-    <div className="w-full h-full px-4 lg:px-[8.2rem] pb-20 lg:pb-60">
-      <div className="text-white flex flex-col items-center lg:flex-row justify-between gap-9 py-36">
+    <div className="w-full h-full pb-5 lg:pb-60">
+      <div className="px-4 lg:px-[8.2rem] text-white flex flex-col items-center lg:flex-row justify-between gap-9 py-36">
         <img className="w-52 lg:w-96" src={logoXpro9} alt="" />
         <div className="flex flex-col gap-4">
           <div className="relative font-inter text-[2rem] lg:text-6xl font-extrabold text-center">

@@ -21,7 +21,7 @@ const Navbar = () => {
   // End Use State Close Open Dropdown
 
   return (
-    <nav className="fixed top-0 w-full py-[1.4rem] px-4 lg:px-[8.2rem] bg-gradient-to-b from-blue-500/80 from-0% via-white/10 via-[99%] to-gray-700/80 to-100% backdrop-blur shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)] z-50">
+    <nav className="fixed top-0 w-full py-[1.4rem] px-4 lg:px-[8.2rem] bg-gradient-to-b from-blue-500/80 from-0% via-white/10 via-[99%] to-gray-700/80 to-100% backdrop-filter backdrop-blur shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)] z-[99999]">
       <div className="flex items-center justify-between lg:justify-start lg:gap-[8.25rem]">
         {/* Start Logo */}
         <img className="w-[4.5rem]" src={logoXpro} alt="Logo X-Project" />
@@ -30,7 +30,7 @@ const Navbar = () => {
         <ul className="hidden lg:flex gap-[3rem] text-white font-inter font-medium">
           {/* Start Home */}
           <li className="hover:text-blue-900 inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
-            <a href="">Home</a>
+            <a href="#">Home</a>
           </li>
           {/* End Home */}
 
@@ -104,13 +104,13 @@ const Navbar = () => {
 
           {/* Start Techno Symphony */}
           <li className="hover:text-blue-900 inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
-            <a href="">Techno Symphony</a>
+            <a href="#">Techno Symphony</a>
           </li>
           {/* End Techno Symphony */}
 
           {/* Start About Us */}
           <li className="hover:text-blue-900 inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
-            <a href="">About Us</a>
+            <a href="#">About Us</a>
           </li>
           {/* End About Us */}
         </ul>
@@ -142,7 +142,7 @@ const Navbar = () => {
           <ul className="mt-28 flex flex-col gap-5 text-white font-inter font-medium pl-5">
             {/* Start Home */}
             <li className="w-fit hover:text-blue-900 inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
-              <a href="">Home</a>
+              <a href="#">Home</a>
             </li>
             {/* End Home */}
 
@@ -216,13 +216,13 @@ const Navbar = () => {
 
             {/* Start Techno Symphony */}
             <li className="w-fit hover:text-blue-900 inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
-              <a href="">Techno Symphony</a>
+              <a href="#">Techno Symphony</a>
             </li>
             {/* End Techno Symphony */}
 
             {/* Start About Us */}
             <li className="w-fit hover:text-blue-900 inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
-              <a href="">About Us</a>
+              <a href="#">About Us</a>
             </li>
             {/* End About Us */}
           </ul>

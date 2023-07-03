@@ -6,7 +6,7 @@ const HeroTitle = ({ title }) => {
   return (
     <div className="w-full h-full relative">
       <div className="absolute bg-gradient-to-t from-blue-600 to-blue-300 top-0 bottom-0 w-full h-full -z-[6]"></div>
-      <div className="sticky top-0 px-4 lg:px-[8.2rem] pt-32 lg:pt-20 font-poppins font-semibold">
+      <div className="sticky top-0 px-4 lg:px-[8.2rem] pt-32 lg:pt-20 font-poppins font-semibold z-20">
         <div className="flex flex-col lg:flex-row lg:justify-evenly items-center h-full">
           <img className="animate-wiggle w-36 lg:w-80 h-52 lg:h-96" src={mascotXpro} alt="" />
           <div className="lg:my-28">

@@ -2,11 +2,13 @@ import logoXpro from "./img/logo.svg";
 import logoXpro9 from "./img/logo-xpro9.svg";
 import mascotXpro from "./img/mascot.svg";
 import batuBesar from "./img/batu-besar.png";
+import randomGraphic from "./img/graphic.png";
 import arrowDown from "./icons/arrow-down.svg";
 import layer0 from "./layers/Layer-00.svg";
 import layer1 from "./layers/Layer-01.svg";
 import layer2 from "./layers/Layer-02.svg";
 import layer3 from "./layers/Layer-03.svg";
 import layer4 from "./layers/Layer-04.svg";
+import medpart1 from "./img/medpart-1.png";
 
-export { logoXpro, logoXpro9, mascotXpro, batuBesar, arrowDown, layer0, layer1, layer2, layer3, layer4 };
+export { logoXpro, logoXpro9, mascotXpro, batuBesar, randomGraphic, arrowDown, layer0, layer1, layer2, layer3, layer4, medpart1 };
