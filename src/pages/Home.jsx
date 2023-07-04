@@ -1,12 +1,12 @@
 import React from "react";
+import { medpart1, randomGraphic, sponsor1 } from "../assets";
 import Navbar from "../components/Navbar";
 import HeroTitle from "../components/HeroTitle";
-import AboutHome from "../components/AboutHome";
-import EventCardRight from "../components/EventCardRight";
-import EventCardLeft from "../components/EventCardLeft";
-import { medpart1, randomGraphic, sponsor1 } from "../assets";
-import HomeTitle from "../components/HomeTitle";
-import SponsorContainer from "../components/SponsorContainer";
+import AboutHome from "../components/home/AboutHome";
+import EventCardRight from "../components/home/EventCardRight";
+import EventCardLeft from "../components/home/EventCardLeft";
+import SubTitle from "../components/SubTitle";
+import SponsorContainer from "../components/home/SponsorContainer";
 import Background from "../components/Background";
 import Footer from "../components/Footer";
 
@@ -28,10 +28,10 @@ const Home = () => {
   return (
     <div className="font-poppins">
       <Navbar />
-      <HeroTitle title="X - Project" />
+      <HeroTitle title="X - Project" link="#about-home" />
       <div className="bg-gradient-to-b from-blue-1000 to-blue-400">
         <AboutHome />
-        <HomeTitle title="Our Event" />
+        <SubTitle title="Our Event" />
         <EventCardRight
           title="Tech Genius"
           desc="Informatic Championship (IC) adalah sebuah ajang perlombaan atau kompetisi yang  bertujuan untuk mengasah kemampuan dan keterampilan peserta di bidang teknologi, sehingga dapat menciptakan berbagai inovasi baru di masa yang akan datang, yang dikemas dalam berbagai jenis perlombaan"
@@ -50,9 +50,9 @@ const Home = () => {
           img={randomGraphic}
           link="https://stackoverflow.com/questions/70504047/how-to-have-a-bordered-text-in-tailwind"
         />
-        <HomeTitle title="Sponsored By" />
+        <SubTitle title="Sponsored By" />
         <SponsorContainer images={imagesSponsor} />
-        <HomeTitle title="Media Partner" />
+        <SubTitle title="Media Partner" />
         <SponsorContainer images={imagesMedpart} />
         <Background />
       </div>

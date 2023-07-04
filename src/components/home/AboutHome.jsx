@@ -1,10 +1,10 @@
 import React from "react";
-import { logoXpro9 } from "../assets";
-import Button from "./Button";
+import { logoXpro9 } from "../../assets";
+import ButtonPrimary from "../ButtonPrimary";
 
 const AboutHome = () => {
   return (
-    <div className="w-full h-full pb-5 lg:pb-60">
+    <div className="w-full h-full pb-5 lg:pb-60" id="about-home">
       <div className="px-4 lg:px-[8.2rem] text-white flex flex-col items-center lg:flex-row justify-between gap-9 py-36">
         <img className="w-52 lg:w-96" src={logoXpro9} alt="" />
         <div className="flex flex-col gap-4">
@@ -16,7 +16,7 @@ const AboutHome = () => {
             X-Project merupakan acara tahunan yang diadakan oleh himti UNESA. X-Project 9.0 memiliki serangkaian acara yang meliputi kegiatan pelatihan, pembelajaran pada bidang keahlian tertentu, perlombaan, IT expo, kewirausahaan dan
             pertunjukan yang bertujuan untuk mengenalkan HIMTI UNESA.
           </p>
-          <Button link="https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke" />
+          <ButtonPrimary link="https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke" />
         </div>
       </div>
     </div>

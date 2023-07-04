@@ -16,29 +16,29 @@ const Footer = () => {
         </div>
         <ul className="hidden lg:flex justify-between gap-14 text-base">
           <li className="w-1/4 flex flex-col gap-8">
-            <a className="font-bold text-xl" href="">
+            <a className="font-bold text-xl" href="/">
               <br />
               Tech Genius
             </a>
-            <a href="">Bootcamp UI/UX</a>
-            <a href="">Webinar BMC</a>
+            <a href="/Bootcamp-UIUX">Bootcamp UI/UX</a>
+            <a href="/Webinar-BMC">Webinar BMC</a>
           </li>
           <li className="w-1/4 flex flex-col gap-8">
-            <a className="font-bold text-xl" href="">
+            <a className="font-bold text-xl" href="/">
               Informatics Championship
             </a>
-            <a href="">UI/UX Design</a>
-            <a href="">Essay</a>
-            <a href="">Photography</a>
-            <a href="">BMC</a>
+            <a href="/UIUX-Competition">UI/UX Design</a>
+            <a href="/Essay-Competition">Essay</a>
+            <a href="/Photo-Competition">Photography</a>
+            <a href="/BMC-Competition">BMC</a>
           </li>
           <li className="w-1/4 flex flex-col gap-8">
-            <a className="font-bold text-xl" href="">
+            <a className="font-bold text-xl" href="/">
               Techno <br />
               Symphony
             </a>
-            <a href="">Expo & KWU</a>
-            <a href="">ISO & After Party</a>
+            <a href="/">Expo & KWU</a>
+            <a href="/">ISO & After Party</a>
           </li>
           <li className="w-1/4 flex flex-col gap-8">
             <p className="font-bold text-xl">

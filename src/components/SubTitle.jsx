@@ -1,6 +1,6 @@
 import React from "react";
 
-const HomeTitle = ({ title }) => {
+const SubTitle = ({ title }) => {
   return (
     <div className="w-fit mx-auto relative font-inter text-[2rem] lg:text-6xl font-extrabold mb-8 lg:mb-14 uppercase">
       <h2 className="relative font-outline-1 text-transparent">{title}</h2>
@@ -9,4 +9,4 @@ const HomeTitle = ({ title }) => {
   );
 };
 
-export default HomeTitle;
+export default SubTitle;

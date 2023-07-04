@@ -2,7 +2,7 @@ import React from "react";
 import { batuBesar, mascotXpro } from "../assets";
 import Background from "./Background";
 
-const HeroTitle = ({ title }) => {
+const HeroTitle = ({ title, link }) => {
   return (
     <div className="w-full h-full relative">
       <div className="absolute bg-gradient-to-t from-blue-600 to-blue-300 top-0 bottom-0 w-full h-full -z-[6]"></div>
@@ -17,7 +17,7 @@ const HeroTitle = ({ title }) => {
 
             {/* Scroll Down Button Start */}
             <div className="mx-auto flex flex-col items-center mt-5">
-              <a className="text-center mx-auto w-fit animate-bounce" href="">
+              <a className="text-center mx-auto w-fit animate-bounce" href={link}>
                 Scroll Down
                 <svg className="w-6 h-6 mx-auto" width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <g id="icons/regular/chevron-up-s">
