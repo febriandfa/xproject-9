@@ -30,7 +30,7 @@ const Navbar = () => {
         <ul className="hidden lg:flex gap-[3rem] text-white font-inter font-medium">
           {/* Start Home */}
           <li className="hover:text-blue-900 inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
-            <a href="#">Home</a>
+            <a href="/">Home</a>
           </li>
           {/* End Home */}
 
@@ -54,10 +54,10 @@ const Navbar = () => {
             {openOne ? (
               <ul className="absolute bg-gray-100/40 border border-blue-300 text-blue-900 p-[0.9rem] top-12 rounded backdrop-blur shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)]">
                 <li className="py-[0.9rem] px-[0.6rem] w-[15rem] hover:bg-gray-50/5 hover:backdrop-blur rounded">
-                  <button>Bootcamp UI/UX Design</button>
+                  <a href="/Bootcamp-UIUX">Bootcamp UI/UX Design</a>
                 </li>
                 <li className="py-[0.9rem] px-[0.6rem] w-[15rem] hover:bg-gray-50/5 hover:backdrop-blur rounded">
-                  <button>Webinar BMC</button>
+                  <a href="/Webinar-BMC">Webinar BMC</a>
                 </li>
               </ul>
             ) : null}
@@ -85,16 +85,16 @@ const Navbar = () => {
             {openTwo ? (
               <ul className="absolute bg-gray-100/40 border border-blue-300 text-blue-900 p-[0.9rem] top-12 rounded backdrop-blur shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)]">
                 <li className="py-[0.9rem] px-[0.6rem] w-[15rem] hover:bg-gray-50/5 hover:backdrop-blur rounded">
-                  <button>UI/UX Design</button>
+                  <a href="/UIUX-Competition">UI/UX Design</a>
                 </li>
                 <li className="py-[0.9rem] px-[0.6rem] w-[15rem] hover:bg-gray-50/5 hover:backdrop-blur rounded">
-                  <button>Essay</button>
+                  <a href="/Essay-Competition">Essay</a>
                 </li>
                 <li className="py-[0.9rem] px-[0.6rem] w-[15rem] hover:bg-gray-50/5 hover:backdrop-blur rounded">
-                  <button>Photography</button>
+                  <a href="/Photo-Competition">Photography</a>
                 </li>
                 <li className="py-[0.9rem] px-[0.6rem] w-[15rem] hover:bg-gray-50/5 hover:backdrop-blur rounded">
-                  <button>Business Model Canvas</button>
+                  <a href="/BMC-Competition">Business Model Canvas</a>
                 </li>
               </ul>
             ) : null}
@@ -104,13 +104,13 @@ const Navbar = () => {
 
           {/* Start Techno Symphony */}
           <li className="hover:text-blue-900 inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
-            <a href="#">Techno Symphony</a>
+            <a href="/Techno-Symphony">Techno Symphony</a>
           </li>
           {/* End Techno Symphony */}
 
           {/* Start About Us */}
           <li className="hover:text-blue-900 inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
-            <a href="#">About Us</a>
+            <a href="/About">About Us</a>
           </li>
           {/* End About Us */}
         </ul>
@@ -142,7 +142,7 @@ const Navbar = () => {
           <ul className="mt-28 flex flex-col gap-5 text-white font-inter font-medium pl-5">
             {/* Start Home */}
             <li className="w-fit hover:text-blue-900 inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             {/* End Home */}
 
@@ -166,10 +166,10 @@ const Navbar = () => {
               {openOne ? (
                 <ul className="flex flex-col gap-5 mt-5 ml-5">
                   <li>
-                    <button>Bootcamp UI/UX Design</button>
+                    <a href="/Bootcamp-UIUX">Bootcamp UI/UX Design</a>
                   </li>
                   <li>
-                    <button>Webinar BMC</button>
+                    <a href="/Webinar-BMC">Webinar BMC</a>
                   </li>
                 </ul>
               ) : null}
@@ -193,36 +193,36 @@ const Navbar = () => {
                   </g>
                 </svg>
               </button>
-              {/* Start Dropdown Tech Genius */}
+              {/* Start Dropdown Championship */}
               {openTwo ? (
                 <ul className="flex flex-col gap-5 mt-5 ml-5">
                   <li>
-                    <button>UI/UX Design</button>
+                    <a href="/UIUX-Competition">UI/UX Design</a>
                   </li>
                   <li>
-                    <button>Essay</button>
+                    <a href="/Essay-Competition">Essay</a>
                   </li>
                   <li>
-                    <button>Photography</button>
+                    <a href="/Photo-Competition">Photography</a>
                   </li>
                   <li>
-                    <button>Business Model Canvas</button>
+                    <a href="/BMC-Competition">Business Model Canvas</a>
                   </li>
                 </ul>
               ) : null}
-              {/* End Dropdown Tech Genius */}
+              {/* End Dropdown Championship */}
             </li>
             {/* End Championship */}
 
             {/* Start Techno Symphony */}
             <li className="w-fit hover:text-blue-900 inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
-              <a href="#">Techno Symphony</a>
+              <a href="/Techno-Symphony">Techno Symphony</a>
             </li>
             {/* End Techno Symphony */}
 
             {/* Start About Us */}
             <li className="w-fit hover:text-blue-900 inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
-              <a href="#">About Us</a>
+              <a href="/">About Us</a>
             </li>
             {/* End About Us */}
           </ul>
