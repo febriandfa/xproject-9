@@ -16,7 +16,7 @@ const EventCardLeft = ({ title, desc, img, link }) => {
             <h2 className="absolute top-[0.15rem] -right-[0.27rem] w-full">{title}</h2>
           </div>
           <p className="text-lg lg:text-2xl mb-3">{desc}</p>
-          <ButtonPrimary link={link} />
+          <ButtonPrimary text="See More" link={link} />
         </div>
       </div>
     </div>
