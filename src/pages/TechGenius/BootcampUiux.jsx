@@ -3,6 +3,8 @@ import Navbar from "../../components/Navbar";
 import HeroTitle from "../../components/HeroTitle";
 import SubTitleExtra from "../../components/SubTitleExtra";
 import OverviewTG from "../../components/techgenius/OverviewTG";
+import Speaker from "../../components/techgenius/Speaker";
+import { speakerPhoto1 } from "../../assets";
 
 const BootcampUiux = () => {
   return (
@@ -18,6 +20,8 @@ const BootcampUiux = () => {
           biaya="Free Pendaftaran"
           waktu="4,5,6, dan 7 Agustus 2023"
         />
+        <SubTitleExtra title="Pemateri" sub="Bootcamp UI/UX Design" />
+        <Speaker img={speakerPhoto1} speaker="Febrian Daffa Eka Putra" position="Front-End Developer at Shopee" />
         <SubTitleExtra title="Timeline" sub="Bootcamp UI/UX Design" />
       </div>
     </div>
