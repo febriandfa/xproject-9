@@ -15,11 +15,43 @@ import instagram from "./icons/instagram.svg";
 import linkedin from "./icons/linkedin.svg";
 import spotify from "./icons/spotify.svg";
 import youtube from "./icons/youtube.svg";
+import whatsapp from "./icons/whatsapp.svg";
 import logoHimti from "./img/himti.svg";
 import logoUnesa from "./img/unesa.svg";
 import email from "./icons/mail.svg";
 import phone from "./icons/phone.svg";
 import map from "./icons/map.svg";
 import speakerPhoto1 from "./img/speakerPhoto.png";
+import goldTrophy from "./img/gold-trophy.svg";
+import silverTrophy from "./img/silver-trophy.svg";
+import bronzeTrophy from "./img/bronze-trophy.svg";
 
-export { logoXpro, logoXpro9, mascotXpro, batuBesar, randomGraphic, arrowDown, layer0, layer1, layer2, layer3, layer4, medpart1, sponsor1, instagram, linkedin, spotify, youtube, logoHimti, logoUnesa, email, phone, map, speakerPhoto1 };
+export {
+  logoXpro,
+  logoXpro9,
+  mascotXpro,
+  batuBesar,
+  randomGraphic,
+  arrowDown,
+  layer0,
+  layer1,
+  layer2,
+  layer3,
+  layer4,
+  medpart1,
+  sponsor1,
+  instagram,
+  linkedin,
+  spotify,
+  youtube,
+  whatsapp,
+  logoHimti,
+  logoUnesa,
+  email,
+  phone,
+  map,
+  speakerPhoto1,
+  goldTrophy,
+  silverTrophy,
+  bronzeTrophy,
+};
