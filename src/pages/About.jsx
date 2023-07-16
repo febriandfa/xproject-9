@@ -8,12 +8,14 @@ import HeroTitle from "../components/HeroTitle";
 
 const About = () => {
   return (
-    <div className="bg-gradient-to-b from-blue-400 to-blue-1000">
+    <div>
       <Navbar />
       <HeroTitle title="X-Project 9.0" />
-      <AboutAbout />
-      <Theme />
-      <Background />
+      <div className="bg-gradient-to-b from-blue-1000 to-blue-400 pt-36">
+        <AboutAbout />
+        <Theme />
+        <Background />
+      </div>
       <Footer />
     </div>
   );
