@@ -6,6 +6,8 @@ const Navbar = () => {
   const [openOne, setOpenOne] = useState(false);
   const [openTwo, setOpenTwo] = useState(false);
   const [openMobile, setOpenMobile] = useState(false);
+  const [openOneMobile, setOpenOneMobile] = useState(false);
+  const [openTwoMobile, setOpenTwoMobile] = useState(false);
 
   const handleOpenMenuOne = () => {
     setOpenOne(!openOne);
@@ -18,6 +20,15 @@ const Navbar = () => {
   const handleOpenMenuMobile = () => {
     setOpenMobile(!openMobile);
   };
+
+  const handleOpenMenuOneMobile = () => {
+    setOpenOneMobile(!openOneMobile);
+  };
+
+  const handleOpenMenuTwoMobile = () => {
+    setOpenTwoMobile(!openTwoMobile);
+  };
+
   // End Use State Close Open Dropdown
 
   return (
@@ -29,13 +40,13 @@ const Navbar = () => {
 
         <ul className="hidden lg:flex gap-[3rem] text-white font-inter font-medium">
           {/* Start Home */}
-          <li className="hover:text-blue-900 inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
+          <li className=" inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
             <a href="/">Home</a>
           </li>
           {/* End Home */}
 
           {/* Start Tech Genius */}
-          <li className="relative hover:text-blue-900 inline-block transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
+          <li className="relative  inline-block transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
             <button className="flex items-center gap-[0.6rem]" onClick={handleOpenMenuOne}>
               Tech Genius
               <svg className="w-5 h-5" width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -53,11 +64,15 @@ const Navbar = () => {
             {/* Start Dropdown Tech Genius */}
             {openOne ? (
               <ul className="absolute bg-gray-100/40 border border-blue-300 text-blue-900 p-[0.9rem] top-12 rounded backdrop-blur-xl shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)]">
-                <li className="py-[0.9rem] px-[0.6rem] w-[15rem] hover:bg-gray-50/5 hover:backdrop-blur rounded">
-                  <a href="/Bootcamp-UIUX">Bootcamp UI/UX Design</a>
+                <li className="w-[15rem] hover:bg-gray-50/5 hover:backdrop-blur rounded">
+                  <a className="block w-full h-full py-[0.9rem] px-[0.6rem]" href="/Bootcamp-UIUX">
+                    Bootcamp UI/UX Design
+                  </a>
                 </li>
-                <li className="py-[0.9rem] px-[0.6rem] w-[15rem] hover:bg-gray-50/5 hover:backdrop-blur rounded">
-                  <a href="/Webinar-BMC">Webinar BMC</a>
+                <li className="w-[15rem] hover:bg-gray-50/5 hover:backdrop-blur rounded">
+                  <a className="block w-full h-full py-[0.9rem] px-[0.6rem]" href="/Webinar-BMC">
+                    Webinar BMC
+                  </a>
                 </li>
               </ul>
             ) : null}
@@ -66,7 +81,7 @@ const Navbar = () => {
           {/* End Tech Genius */}
 
           {/* Start Championship */}
-          <li className="relative hover:text-blue-900 inline-block transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
+          <li className="relative  inline-block transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
             <button className="flex items-center gap-[0.6rem]" onClick={handleOpenMenuTwo}>
               Championship
               <svg className="w-5 h-5" width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -84,17 +99,25 @@ const Navbar = () => {
             {/* Start Dropdown Tech Genius */}
             {openTwo ? (
               <ul className="absolute bg-gray-100/40 border border-blue-300 text-blue-900 p-[0.9rem] top-12 rounded backdrop-blur-xl shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)]">
-                <li className="py-[0.9rem] px-[0.6rem] w-[15rem] hover:bg-gray-50/5 hover:backdrop-blur rounded">
-                  <a href="/UIUX-Competition">UI/UX Design</a>
+                <li className="w-[15rem] hover:bg-gray-50/5 hover:backdrop-blur rounded">
+                  <a className="block w-full h-full py-[0.9rem] px-[0.6rem]" href="/UIUX-Competition">
+                    UI/UX Design
+                  </a>
                 </li>
-                <li className="py-[0.9rem] px-[0.6rem] w-[15rem] hover:bg-gray-50/5 hover:backdrop-blur rounded">
-                  <a href="/Essay-Competition">Essay</a>
+                <li className="w-[15rem] hover:bg-gray-50/5 hover:backdrop-blur rounded">
+                  <a className="block w-full h-full py-[0.9rem] px-[0.6rem]" href="/Essay-Competition">
+                    Essay
+                  </a>
                 </li>
-                <li className="py-[0.9rem] px-[0.6rem] w-[15rem] hover:bg-gray-50/5 hover:backdrop-blur rounded">
-                  <a href="/Photo-Competition">Photography</a>
+                <li className="w-[15rem] hover:bg-gray-50/5 hover:backdrop-blur rounded">
+                  <a className="block w-full h-full py-[0.9rem] px-[0.6rem]" href="/Photo-Competition">
+                    Photography
+                  </a>
                 </li>
-                <li className="py-[0.9rem] px-[0.6rem] w-[15rem] hover:bg-gray-50/5 hover:backdrop-blur rounded">
-                  <a href="/BMC-Competition">Business Model Canvas</a>
+                <li className="w-[15rem] hover:bg-gray-50/5 hover:backdrop-blur rounded">
+                  <a className="block w-full h-full py-[0.9rem] px-[0.6rem]" href="/BMC-Competition">
+                    Business Model Canvas
+                  </a>
                 </li>
               </ul>
             ) : null}
@@ -103,20 +126,20 @@ const Navbar = () => {
           {/* End Championship */}
 
           {/* Start Techno Symphony */}
-          <li className="hover:text-blue-900 inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
+          <li className=" inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
             <a href="/Techno-Symphony">Techno Symphony</a>
           </li>
           {/* End Techno Symphony */}
 
           {/* Start About Us */}
-          <li className="hover:text-blue-900 inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
+          <li className=" inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
             <a href="/About">About Us</a>
           </li>
           {/* End About Us */}
         </ul>
 
         {/* Mobile */}
-        <button className="block lg:hidden" onClick={handleOpenMenuMobile}>
+        <button className="block md:hidden" onClick={handleOpenMenuMobile}>
           {openMobile ? (
             <svg className="w-7 h-7" width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -138,17 +161,20 @@ const Navbar = () => {
         </button>
       </div>
       {openMobile ? (
-        <div className="w-[16rem] h-screen absolute top-0 bottom-0 right-0 bg-gradient-to-br from-blue-500/80 from-0% via-white/10 via-[99%] to-gray-700/80 to-100%  backdrop-filter backdrop-blur-3xl shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)] -z-[1]">
+        <div className="w-[16rem] h-screen absolute top-0 bottom-0 right-0 bg-gradient-to-br from-blue-500 via-blue-500 to-blue-900  backdrop-filter backdrop-blur-3xl shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)] -z-[1]">
           <ul className="mt-28 flex flex-col gap-5 text-white font-inter font-medium pl-5">
             {/* Start Home */}
-            <li className="w-fit hover:text-blue-900 inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
+            <li className="w-fit  inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
               <a href="/">Home</a>
             </li>
             {/* End Home */}
 
             {/* Start Tech Genius */}
-            <li className="w-fit relative hover:text-blue-900 inline-block transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
-              <button className="flex items-center gap-[0.6rem]" onClick={handleOpenMenuOne}>
+            <li className="">
+              <button
+                className="flex items-center gap-[0.6rem] w-fit relative  transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100"
+                onClick={handleOpenMenuOneMobile}
+              >
                 Tech Genius
                 <svg className="w-5 h-5" width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <g id="icons/regular/chevron-up-s">
@@ -163,12 +189,12 @@ const Navbar = () => {
                 </svg>
               </button>
               {/* Start Dropdown Tech Genius */}
-              {openOne ? (
+              {openOneMobile ? (
                 <ul className="flex flex-col gap-5 mt-5 ml-5">
-                  <li>
+                  <li className="w-fit relative  transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
                     <a href="/Bootcamp-UIUX">Bootcamp UI/UX Design</a>
                   </li>
-                  <li>
+                  <li className="w-fit relative  transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
                     <a href="/Webinar-BMC">Webinar BMC</a>
                   </li>
                 </ul>
@@ -178,8 +204,11 @@ const Navbar = () => {
             {/* End Tech Genius */}
 
             {/* Start Championship */}
-            <li className="w-fit relative hover:text-blue-900 inline-block transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
-              <button className="flex items-center gap-[0.6rem]" onClick={handleOpenMenuTwo}>
+            <li className="">
+              <button
+                className="flex items-center gap-[0.6rem] w-fit relative  transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100"
+                onClick={handleOpenMenuTwoMobile}
+              >
                 Championship
                 <svg className="w-5 h-5" width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <g id="icons/regular/chevron-up-s">
@@ -194,18 +223,18 @@ const Navbar = () => {
                 </svg>
               </button>
               {/* Start Dropdown Championship */}
-              {openTwo ? (
+              {openTwoMobile ? (
                 <ul className="flex flex-col gap-5 mt-5 ml-5">
-                  <li>
+                  <li className="w-fit relative  transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
                     <a href="/UIUX-Competition">UI/UX Design</a>
                   </li>
-                  <li>
+                  <li className="w-fit relative  transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
                     <a href="/Essay-Competition">Essay</a>
                   </li>
-                  <li>
+                  <li className="w-fit relative  transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
                     <a href="/Photo-Competition">Photography</a>
                   </li>
-                  <li>
+                  <li className="w-fit relative  transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
                     <a href="/BMC-Competition">Business Model Canvas</a>
                   </li>
                 </ul>
@@ -215,13 +244,13 @@ const Navbar = () => {
             {/* End Championship */}
 
             {/* Start Techno Symphony */}
-            <li className="w-fit hover:text-blue-900 inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
+            <li className="w-fit  inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
               <a href="/Techno-Symphony">Techno Symphony</a>
             </li>
             {/* End Techno Symphony */}
 
             {/* Start About Us */}
-            <li className="w-fit hover:text-blue-900 inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
+            <li className="w-fit  inline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-blue-900 hover:before:w-full hover:before:opacity-100">
               <a href="/About">About Us</a>
             </li>
             {/* End About Us */}

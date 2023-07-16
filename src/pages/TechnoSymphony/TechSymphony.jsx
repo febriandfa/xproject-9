@@ -1,7 +1,7 @@
 import React from "react";
 
 const TechSymphony = () => {
-  return <div>TechSymphony</div>;
+  return <div></div>;
 };
 
 export default TechSymphony;
