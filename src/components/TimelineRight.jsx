@@ -2,7 +2,7 @@ import React from "react";
 
 const TimelineRight = ({ nama, tanggal }) => {
   return (
-    <div class="flex items-center justify-center w-full h-full px-6 lg:px-[8.2rem]">
+    <div class="flex items-center justify-center w-full h-full px-6 lg:px-[8.2rem] relative z-20">
       <div class="grid w-full max-w-6xl grid-cols-9 mx-auto">
         <div class="w-full h-full col-span-4"></div>
         <div class="relative flex items-center justify-center w-full h-full col-span-1">

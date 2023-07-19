@@ -3,7 +3,7 @@ import { bronzeTrophy, goldTrophy, silverTrophy } from "../assets";
 
 const Prizes = ({ first, second, third }) => {
   return (
-    <div className="w-full h-full px-6 lg:px-[8.2rem] pb-36">
+    <div className="w-full h-full px-6 lg:px-[8.2rem] pb-36 relative z-20">
       <div className="flex flex-col lg:flex-row justify-center items-center lg:items-end text-white gap-10">
         <div className="bg-gradient-to-r from-blue-400/70 to-blue-400/50 backdrop-blur shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)] rounded-lg w-60 lg:w-72 h-fit text-center lg:order-2">
           <img className="drop-shadow-xl h-64 pt-10 mx-auto" src={goldTrophy} alt="" />

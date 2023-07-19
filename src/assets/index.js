@@ -22,6 +22,7 @@ import email from "./icons/mail.svg";
 import phone from "./icons/phone.svg";
 import map from "./icons/map.svg";
 import speakerPhoto1 from "./img/speakerPhoto.png";
+import guestPhoto1 from "./img/guestPhoto.png";
 import goldTrophy from "./img/gold-trophy.svg";
 import silverTrophy from "./img/silver-trophy.svg";
 import bronzeTrophy from "./img/bronze-trophy.svg";
@@ -51,6 +52,7 @@ export {
   phone,
   map,
   speakerPhoto1,
+  guestPhoto1,
   goldTrophy,
   silverTrophy,
   bronzeTrophy,

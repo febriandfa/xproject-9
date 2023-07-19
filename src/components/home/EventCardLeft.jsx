@@ -4,7 +4,7 @@ import { batuBesar } from "../../assets";
 
 const EventCardLeft = ({ title, desc, img, link }) => {
   return (
-    <div className="w-full h-screen px-4 lg:px-[8.2rem] z-20">
+    <div className="w-full h-screen px-4 lg:px-[8.2rem] relative z-20">
       <div className="flex flex-col lg:flex-row justify-between items-center gap-14">
         <div className="w-full flex flex-col items-center order-1">
           <img className="w-36 lg:w-80" src={img} alt="" />

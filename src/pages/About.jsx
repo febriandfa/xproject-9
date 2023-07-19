@@ -6,8 +6,8 @@ import Background from "../components/Background";
 import Footer from "../components/Footer";
 import HeroTitle from "../components/HeroTitle";
 import SubTitle from "../components/SubTitle";
-import Gallery from "../components/techsymphony/Gallery";
-import Teaser from "../components/techsymphony/Teaser";
+import Gallery from "../components/about/Gallery";
+import Teaser from "../components/about/Teaser";
 
 const About = () => {
   return (
