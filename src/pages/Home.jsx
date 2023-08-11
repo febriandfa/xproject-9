@@ -34,21 +34,18 @@ const Home = () => {
         <SubTitle title="Our Event" />
         <EventCardRight
           title="Tech Genius"
-          desc="Informatic Championship (IC) adalah sebuah ajang perlombaan atau kompetisi yang  bertujuan untuk mengasah kemampuan dan keterampilan peserta di bidang teknologi, sehingga dapat menciptakan berbagai inovasi baru di masa yang akan datang, yang dikemas dalam berbagai jenis perlombaan"
+          desc="Tech Genius adalah kegiatan yang dirancang untuk membangun dan meningkatkan pemahaman serta keterampilan teknologi di kalangan peserta. Kegiatan ini bertujuan untuk mengembangkan generasi yang cakap dan kreatif dalam pemanfaatan teknologi di berbagai aspek kehidupan."
           img={randomGraphic}
-          link="https://github.com/"
         />
         <EventCardLeft
           title="Informatic Championship"
           desc="Informatic Championship (IC) adalah sebuah ajang perlombaan atau kompetisi yang  bertujuan untuk mengasah kemampuan dan keterampilan peserta di bidang teknologi, sehingga dapat menciptakan berbagai inovasi baru di masa yang akan datang, yang dikemas dalam berbagai jenis perlombaan"
           img={randomGraphic}
-          link="https://www.youtube.com/"
         />
         <EventCardRight
           title="Techno Symphony"
           desc="Techno Symphony adalah kegiatan akhir dari X-Project 9.0, kegiatan yang bertujuan untuk meningkatkan pengetahuan tentang rumpun teknik informatika bagi mahasiswa TI Unesa dan menjadi wadah kreatifitas seni Mahasiswa"
           img={randomGraphic}
-          link="https://stackoverflow.com/questions/70504047/how-to-have-a-bordered-text-in-tailwind"
         />
         <SubTitle title="Sponsored By" />
         <SponsorContainer images={imagesSponsor} />

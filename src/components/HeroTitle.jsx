@@ -10,10 +10,19 @@ const HeroTitle = ({ title, link }) => {
         <div className="flex flex-col lg:flex-row lg:justify-evenly items-center h-full">
           <img className="animate-wiggle w-36 lg:w-80 h-52 lg:h-96" src={mascotXpro} alt="" />
           <div className="lg:my-28">
-            <div className="text-5xl lg:text-8xl font-bowlby relative text-center">
+            {/* Before Revision Start */}
+            {/* <div className="text-5xl lg:text-8xl font-bowlby relative text-center">
               <h1 className="text-white relative">{title}</h1>
               <h1 className="text-black absolute top-[0.15rem] -right-1 w-full">{title}</h1>
+            </div> */}
+            {/* Before Revision End */}
+
+            {/* After Revision Start */}
+            <div className="relative font-inter text-[2.5rem] lg:text-8xl font-extrabold text-center uppercase">
+              <h2 className="relative font-outline-1 text-transparent">{title}</h2>
+              <h2 className="absolute top-[0.15rem] -right-[0.27rem] w-full">{title}</h2>
             </div>
+            {/* After Revision End */}
 
             {/* Scroll Down Button Start */}
             <div className="mx-auto flex flex-col items-center mt-5">

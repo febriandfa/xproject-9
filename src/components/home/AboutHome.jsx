@@ -16,7 +16,7 @@ const AboutHome = () => {
             X-Project merupakan acara tahunan yang diadakan oleh himti UNESA. X-Project 9.0 memiliki serangkaian acara yang meliputi kegiatan pelatihan, pembelajaran pada bidang keahlian tertentu, perlombaan, IT expo, kewirausahaan dan
             pertunjukan yang bertujuan untuk mengenalkan HIMTI UNESA.
           </p>
-          <ButtonPrimary text="See More" link="https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke" />
+          <ButtonPrimary text="See More" link="/About" />
         </div>
       </div>
     </div>

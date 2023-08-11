@@ -20,16 +20,28 @@ const UiuxCompetition = () => {
       <div className="bg-gradient-to-b from-blue-1000 to-blue-400 pt-36">
         <SubTitleExtra title="Overview" sub="UI/UX Design Competition" />
         <OverviewIC
-          desc="Lorem ipsum dolor sit amet consectetur. Magna ultrices tortor diam eget nibh tempus cursus volutpat. Lorem ipsum dolor sit amet consectetur. Magna ultrices tortor diam eget nibh tempus cursus volutpat. Magna ultrices tortor diam eget nibh tempus cursus volutpat. Magna ultrices tortor diam eget nibh tempus cursus volutpat. Magna ultrices tortor diam eget nibh tempus cursus volutpat."
+          desc="Bootcamp UI/UX Design adalah program intensif yang dirancang untuk mengajarkan para peserta tentang pengalaman pengguna (UX) dan desain antarmuka (UI) pada website atau aplikasi. Dalam bootcamp ini, peserta akan diajarkan prinsip-prinsip desain yang efektif dan strategi untuk menciptakan pengalaman online yang menarik, fungsional, dan mudah digunakan."
           kategori="Mahasiswa"
+          tempat="Online"
+          jam="19.00-20.00"
           biaya="Free Pendaftaran"
           tingkat="Nasional"
         />
         <SubTitleExtra title="Timeline" sub="UI/UX Design Competition" />
         <div className="pb-36">
-          <TimelineLeft nama="Registrasi dan Pengumpulan" tanggal="25 Oktober - 27 Oktober 2023" />
-          <TimelineRight nama="Registrasi dan Pengumpulan" tanggal="29 Oktober - 31 Oktober 2023" />
-          <TimelineLeft nama="Registrasi dan Pengumpulan" tanggal="25 Oktober - 27 Oktober 2023" />
+          <TimelineLeft nama="Pendaftaran" tanggal="11 September - 21 Oktober 2023" />
+          <TimelineRight nama="Technical Meeting 1" tanggal="22 Oktober 2023" />
+          <TimelineLeft nama="Pengumpulan Proposal" tanggal="23 - 30 Oktober 2023" />
+          <TimelineRight nama="Penjurian Proposal" tanggal="31 Oktober - 5 November 2023" />
+          <TimelineLeft nama="Pengumuman Semifinal" tanggal="6 November 2023" />
+          <TimelineRight nama="Pengumpulan Karya Semifinal" tanggal="7 - 13 November 2023" />
+          <TimelineLeft nama="Penjurian Semifinal" tanggal="14 - 19 November 2023" />
+          <TimelineRight nama="Pengumuman Final" tanggal="20 November 2023" />
+          <TimelineLeft nama="Technical Meeting 2" tanggal="21 November 2023" />
+          <TimelineRight nama="Pengumpulan Media Presentasi (PPT)" tanggal="22-24 November 2023" />
+          <TimelineLeft nama="Final" tanggal="25 November 2023" />
+          <TimelineRight nama="Penjurian Final" tanggal="26-30 November 2023" />
+          <TimelineLeft nama="Pengumuman Pemenang" tanggal="1 Desember 2023" />
         </div>
         <SubTitleExtra title="The Champion Prizes" sub="UI/UX Design Competition" />
         <Prizes first="Rp 700.000" second="Rp 500.000" third="Rp 300.000" />
