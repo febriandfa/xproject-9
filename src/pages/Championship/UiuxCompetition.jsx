@@ -16,8 +16,8 @@ const UiuxCompetition = () => {
   return (
     <div>
       <Navbar />
-      <HeroTitle title="UI/UX Design Competition" />
-      <div className="bg-gradient-to-b from-blue-1000 to-blue-400 pt-36">
+      <HeroTitle title="UI/UX Design Competition" link="#about-uiuxcomp" />
+      <div className="bg-gradient-to-b from-blue-1000 to-blue-400 pt-36" id="about-uiuxcomp">
         <SubTitleExtra title="Overview" sub="UI/UX Design Competition" />
         <OverviewIC
           desc="Bootcamp UI/UX Design adalah program intensif yang dirancang untuk mengajarkan para peserta tentang pengalaman pengguna (UX) dan desain antarmuka (UI) pada website atau aplikasi. Dalam bootcamp ini, peserta akan diajarkan prinsip-prinsip desain yang efektif dan strategi untuk menciptakan pengalaman online yang menarik, fungsional, dan mudah digunakan."

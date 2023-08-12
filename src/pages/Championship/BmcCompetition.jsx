@@ -16,8 +16,8 @@ const BmcCompetition = () => {
   return (
     <div>
       <Navbar />
-      <HeroTitle title="BMC Competition" />
-      <div className="bg-gradient-to-b from-blue-1000 to-blue-400 pt-36">
+      <HeroTitle title="BMC Competition" link="#about-bmccomp" />
+      <div className="bg-gradient-to-b from-blue-1000 to-blue-400 pt-36" id="about-bmccomp">
         <SubTitleExtra title="Overview" sub="BMC Competition" />
         <OverviewIC
           desc="Lorem ipsum dolor sit amet consectetur. Magna ultrices tortor diam eget nibh tempus cursus volutpat. Lorem ipsum dolor sit amet consectetur. Magna ultrices tortor diam eget nibh tempus cursus volutpat. Magna ultrices tortor diam eget nibh tempus cursus volutpat. Magna ultrices tortor diam eget nibh tempus cursus volutpat. Magna ultrices tortor diam eget nibh tempus cursus volutpat."

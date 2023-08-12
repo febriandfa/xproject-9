@@ -11,6 +11,7 @@ module.exports = {
       colors: {
         blue: {
           1000: "#102A59",
+          1100: "#102A59",
         },
       },
       keyframes: {

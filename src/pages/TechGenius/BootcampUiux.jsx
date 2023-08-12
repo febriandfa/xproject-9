@@ -17,8 +17,8 @@ const BootcampUiux = () => {
   return (
     <div>
       <Navbar />
-      <HeroTitle title="Bootcamp UI/UX Design" />
-      <div className="bg-gradient-to-b from-blue-1000 to-blue-400 pt-36">
+      <HeroTitle title="Bootcamp UI/UX Design" link="#about-bootcamp" />
+      <div className="bg-gradient-to-b from-blue-1000 to-blue-400 pt-36" id="about-bootcamp">
         <SubTitleExtra title="Overview" sub="Bootcamp UI/UX Design" />
         <OverviewBoot
           desc="Bootcamp UI/UX Design adalah program intensif yang dirancang untuk mengajarkan para peserta tentang pengalaman pengguna (UX) dan desain antarmuka (UI) pada website atau aplikasi. Dalam bootcamp ini, peserta akan diajarkan prinsip-prinsip desain yang efektif dan strategi untuk menciptakan pengalaman online yang menarik, fungsional, dan mudah digunakan."

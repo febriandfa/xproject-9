@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
-import HeroTitle from "../../components/HeroTitle";
+import HeroTitle from "../../components/home/HeroTitleHome";
 import SubTitleExtra from "../../components/SubTitleExtra";
 import OverviewIC from "../../components/championship/OverviewIC";
 import TimelineLeft from "../../components/TimelineLeft";
@@ -16,8 +16,8 @@ const PhotoCompetition = () => {
   return (
     <div>
       <Navbar />
-      <HeroTitle title="Photography Competition" />
-      <div className="bg-gradient-to-b from-blue-1000 to-blue-400 pt-36">
+      <HeroTitle title="Photography Competition" link="#about-photo" />
+      <div className="bg-gradient-to-b from-blue-1000 to-blue-400 pt-36" id="about-photo">
         <SubTitleExtra title="Overview" sub="Photography Competition" />
         <OverviewIC
           desc="Lomba Fotografi adalah sebuah kompetisi yang mempertandingkan karya fotografi yang dihasilkan oleh peserta. Lomba ini bertujuan untuk mengembangkan kreativitas peserta dalam bidang fotografi, serta meningkatkan kemampuan teknis dan estetika dalam menghasilkan karya yang berkualitas."

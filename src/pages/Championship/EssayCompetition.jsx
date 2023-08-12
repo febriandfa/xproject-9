@@ -16,8 +16,8 @@ const EssayCompetition = () => {
   return (
     <div>
       <Navbar />
-      <HeroTitle title={"Essay Competition"} />
-      <div className="bg-gradient-to-b from-blue-1000 to-blue-400 pt-36">
+      <HeroTitle title="Essay Competition" link="#about-essay" />
+      <div className="bg-gradient-to-b from-blue-1000 to-blue-400 pt-36" id="about-essay">
         <SubTitleExtra title="Overview" sub="Essay Competition" />
         <OverviewIC
           desc="Lomba Essay Informatics Championship merupakan sebuah kompetisi menulis essay yang ditujukan untuk mendorong kreativitas dan pemikiran kritis peserta. Lomba ini bertujuan untuk memberikan platform bagi para penulis muda untuk mengekspresikan pandangan mereka tentang isu-isu penting dan kontemporer di berbagai bidang."

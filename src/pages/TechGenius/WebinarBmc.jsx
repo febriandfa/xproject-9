@@ -17,8 +17,8 @@ const WebinarBmc = () => {
   return (
     <div>
       <Navbar />
-      <HeroTitle title="Webinar BMC" />
-      <div className="bg-gradient-to-b from-blue-1000 to-blue-400 pt-36">
+      <HeroTitle title="Webinar BMC" link="#about-webbmc" />
+      <div className="bg-gradient-to-b from-blue-1000 to-blue-400 pt-36" id="about-webbmc">
         <SubTitleExtra title="Overview" sub="Webinar Business Model Canvas" />
         <OverviewWebinar
           desc="Webinar ini memberikan pemahaman tentang tips and trik untuk membangun bisnis dengan BMC dan memahami cara untuk bisa memulai bisnis dengan tools yang ada seperti BMC / Business Plan. Webinar BMC juga memberikan wawasan tentang tren terkini di pasar, peluang bisnis yang muncul, atau perkembangan industri yang relevan. Selain itu, juga untuk memahami elemen – elemen  dalam konsep BMC / Business Plan, serta meningkatkan minat peserta di Informatic Competition."

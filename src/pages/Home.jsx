@@ -1,7 +1,7 @@
 import React from "react";
 import { medpart1, randomGraphic, sponsor1 } from "../assets";
 import Navbar from "../components/Navbar";
-import HeroTitle from "../components/HeroTitle";
+import HeroTitleHome from "../components/home/HeroTitleHome";
 import AboutHome from "../components/home/AboutHome";
 import EventCardRight from "../components/home/EventCardRight";
 import EventCardLeft from "../components/home/EventCardLeft";
@@ -28,7 +28,7 @@ const Home = () => {
   return (
     <div className="font-poppins">
       <Navbar />
-      <HeroTitle title="X - Project" link="#about-home" />
+      <HeroTitleHome title="X - Project 9.0" link="#about-home" />
       <div className="bg-gradient-to-b from-blue-1000 to-blue-400">
         <AboutHome />
         <SubTitle title="Our Event" />
