@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { logoXpro } from "../assets";
+import { useEffect } from "react";
 
 const Navbar = () => {
-  // Start Use State Close Open Dropdown
+
   const [openOne, setOpenOne] = useState(false);
   const [openTwo, setOpenTwo] = useState(false);
   const [openMobile, setOpenMobile] = useState(false);
@@ -29,7 +30,25 @@ const Navbar = () => {
     setOpenTwoMobile(!openTwoMobile);
   };
 
-  // End Use State Close Open Dropdown
+ useEffect(() => {
+    
+    if (openOne) {
+      setOpenOne(true);
+      setOpenTwo(false);
+    } 
+  }, [openOne]);
+
+  useEffect(() => {
+   
+     if (openTwo) {
+      setOpenTwo(true);
+      setOpenOne(false);
+    }
+  }, [openTwo]);
+ 
+  
+  
+ 
 
   return (
     <nav className="fixed top-0 w-full py-[1.4rem] px-4 lg:px-[8.2rem] bg-gradient-to-b from-blue-500/80 from-0% via-white/10 via-[99%] to-gray-700/80 to-100% backdrop-filter backdrop-blur shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)] z-[99999]">
@@ -63,7 +82,7 @@ const Navbar = () => {
             </button>
             {/* Start Dropdown Tech Genius */}
             {openOne ? (
-              <ul className="absolute bg-gray-100/40 border border-blue-300 text-blue-900 p-[0.9rem] top-12 rounded backdrop-blur-xl shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)]">
+              <ul className="absolute bg-gradient-to-b from-blue-500/80 from-0% via-white/10 via-[99%] to-gray-700/80 to-100%  text-white p-[0.9rem] top-12 rounded backdrop-blur-xl shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)]">
                 <li className="w-[15rem] hover:bg-gray-50/5 hover:backdrop-blur rounded">
                   <a className="block w-full h-full py-[0.9rem] px-[0.6rem]" href="/Bootcamp-UIUX">
                     Bootcamp UI/UX Design
@@ -98,7 +117,7 @@ const Navbar = () => {
             </button>
             {/* Start Dropdown Tech Genius */}
             {openTwo ? (
-              <ul className="absolute bg-gray-100/40 border border-blue-300 text-blue-900 p-[0.9rem] top-12 rounded backdrop-blur-xl shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)]">
+              <ul className="absolute bg-gradient-to-b from-blue-500/80 from-0% via-white/10 via-[99%] to-gray-700/80 to-100%  text-white p-[0.9rem] top-12 rounded backdrop-blur-xl shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)]">
                 <li className="w-[15rem] hover:bg-gray-50/5 hover:backdrop-blur rounded">
                   <a className="block w-full h-full py-[0.9rem] px-[0.6rem]" href="/UIUX-Competition">
                     UI/UX Design
@@ -139,7 +158,7 @@ const Navbar = () => {
         </ul>
 
         {/* Mobile */}
-        <button className="block md:hidden" onClick={handleOpenMenuMobile}>
+        <button className="block lg:hidden" onClick={handleOpenMenuMobile}>
           {openMobile ? (
             <svg className="w-7 h-7" width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
