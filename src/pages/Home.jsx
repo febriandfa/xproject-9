@@ -3,12 +3,12 @@ import {  randomGraphic,
  mediaPartner,
  Ortographic,
  TsOrto,
+ Support,
   Sponsor1,
   Sponsor2,
   Sponsor3,
   Sponsor4,
   Sponsor5,
-  Sponsor6,
   Sponsor7,
   Sponsor8,
   Sponsor9,
@@ -38,10 +38,8 @@ import Footer from "../components/Footer";
 const Home = () => {
   const imagesSponsor = [
     { index: 1, src: mediaPartner, alt: "Logo1", class: "w-32" },
-    // { index: 2, src: medpart1, alt: "Logo2", class: "w-32" },
-    // { index: 3, src: medpart1, alt: "Maskot", class: "w-32" },
-    // { index: 4, src: medpart1, alt: "Maskot", class: "w-32" },
   ];
+
 
   const imagesMedpart = [
     { index: 1, src: Sponsor1, alt: "Logo1", class: "w-32" },
@@ -49,7 +47,6 @@ const Home = () => {
     { index: 3, src: Sponsor3, alt: "Maskot", class: "w-32" },
     { index: 4, src: Sponsor4, alt: "Maskot", class: "w-32" },
     { index: 5, src: Sponsor5, alt: "Maskot", class: "w-32" },
-    { index: 6, src: Sponsor6, alt: "Maskot", class: "w-32" },
     { index: 7, src: Sponsor7, alt: "Maskot", class: "w-32" },
     { index: 8, src: Sponsor8, alt: "Maskot", class: "w-32" },
     { index: 9, src: Sponsor9, alt: "Maskot", class: "w-32" },
@@ -93,6 +90,19 @@ const Home = () => {
         />
         <SubTitle title="Sponsored By" />
         <SponsorContainer images={imagesSponsor} />
+         <SubTitle title="Supported By" />
+       
+       <div className="w-full h-full px-4 md:px-[8.2rem] relative z-20">
+      <div className="border-2 border-white py-12 md:py-16 px-7 md:px-8 rounded-lg bg-gradient-to-r from-blue-600/30 via-white/[0.03] to-blue-400/30 backdrop-blur shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)] mb-24 md:mb-48">
+        <div className=" flex flex-wrap items-center justify-center gap-6">
+          <a href="https://skilvul.com/" target="_blank" rel="noopener noreferrer">
+            <img  src={Support} alt="Supported" className="w-[12rem]" />
+         </a>
+        </div>
+      </div>
+    </div>
+   
+        
         <SubTitle title="Media Partner" />
         <SponsorContainer images={imagesMedpart} />
         <Background />

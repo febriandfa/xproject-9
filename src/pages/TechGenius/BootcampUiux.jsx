@@ -12,6 +12,7 @@ import Background from "../../components/Background";
 import Footer from "../../components/Footer";
 import ContactPerson from "../../components/ContactPerson";
 import Registration from "../../components/Registration";
+import Accordion from "../../components/Accordion";
 
 const BootcampUiux = () => {
   return (
@@ -32,12 +33,17 @@ const BootcampUiux = () => {
         <Speaker img={Andika} speaker="Andika Leonardo" position="Product Designer | UI/UX Lead at Amoeba Telkom | Content Creator" />
         <SubTitleExtra title="Timeline" sub="Bootcamp UI/UX Design" />
         <div className="pb-36">
+
+
           <TimelineLeft nama="Pendaftaran dan Pembayaran" tanggal="15 Agustus - 1 September 2023" />
           <TimelineRight nama="Pelaksanaan Bootcamp Day 1" tanggal="3 September 2023" />
           <TimelineLeft nama="Pelaksanaan Bootcamp Day 2" tanggal="4 September 2023" />
           <TimelineRight nama="Pelaksanaan Bootcamp Day 3" tanggal="5 September 2023" />
           <TimelineLeft nama="Pelaksanaan Bootcamp Day 4" tanggal="9 September 2023" />
         </div>
+        
+        <SubTitleExtra title="Silabus Materi" sub="Bootcamp UI/UX Design" />
+        <Accordion/>
         <SubTitle title="Contact Person" />
         <ContactPerson firstlink="https://api.whatsapp.com/send/?phone=6285746684976" firstcp="Lintang Iqhtiar Dwi Mawarni" firstno="0857 4668 4976" secondlink="https://api.whatsapp.com/send/?phone=6281938404189" secondcp="Louis Wang" secondno="0819 3840 4189" />
         <Registration link="http://Unesa.me/BootcampUIUXDesign2023" />

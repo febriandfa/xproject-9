@@ -21,29 +21,29 @@ const EssayCompetition = () => {
         <SubTitleExtra title="Overview" sub="Essay Competition" />
         <OverviewIC
           desc="Lomba Essay Informatics Championship merupakan sebuah kompetisi menulis essay yang ditujukan untuk mendorong kreativitas dan pemikiran kritis peserta. Lomba ini bertujuan untuk memberikan platform bagi para penulis muda untuk mengekspresikan pandangan mereka tentang isu-isu penting dan kontemporer di berbagai bidang."
-          kategori="Mahasiswa"
+          kategori="Mahasiswa (Individu)"
           tempat="Online"
           jam="Via Zoom"
           biaya="Rp 40.000"
           tingkat="Nasional"
+          daftar = "http://unesa.me/InformaticChampionshipEssay"
+          txtDaftar="Daftar"
+          guideBook= "http://unesa.me/GuidebookEssay"
         />
         <SubTitleExtra title="Timeline" sub="Essay Competition" />
         <div className="pb-36">
-          <TimelineLeft nama="Pendaftaran" tanggal="11 September - 2 November 2023" />
-          <TimelineRight nama="Pengumpulan Karya" tanggal="3 - 13 November 2023" />
-          <TimelineLeft nama="Penjurian Karya" tanggal="14 - 19 November 2023" />
-          <TimelineRight nama="Pengumuman Final" tanggal="20 November 2023" />
-          <TimelineLeft nama="Pengumpulan Media Presentasi (PPT)" tanggal="21 - 23 November 2023" />
-          <TimelineRight nama="Technical Meeting" tanggal="24 November 2023" />
-          <TimelineLeft nama="Final" tanggal="25 November 2023" />
-          <TimelineRight nama="Penjurian Final" tanggal="26 - 30 November 2023" />
-          <TimelineLeft nama="Pengumuman Pemenang" tanggal="1 Desember 2023" />
+          <TimelineLeft nama="Pendaftaran dan Pengumpulan Karya" tanggal="12 September - 15 November 2023" />
+          <TimelineRight nama="Pengumuman Final" tanggal="19 November 2023" />
+          <TimelineLeft nama="Technical Meeting" tanggal="20 November 2023" />
+          <TimelineRight nama="Pengumpulan PPT" tanggal="22 - 24  November 2023" />
+          <TimelineLeft nama="Final" tanggal="26 November 2023" />
+          <TimelineRight nama="Pengumuman Pemenang" tanggal="1 Desember 2023 " />
         </div>
         <SubTitleExtra title="The Champion Prizes" sub="Essay Competition" />
         <Prizes first="Uang Pembinaan" second="Uang Pembinaan" third="Uang Pembinaan" />
         <SubTitle title="Contact Person" />
-        <ContactPerson firstlink="wa.me/" firstcp="Louis Wang" firstno="0819 3840 4189" secondlink="wa.me/" secondcp="Deirdre" secondno="0895 7069 70205" />
-        <Registration link="google.com" />
+        <ContactPerson firstlink="http://wa.me/6281938404189" firstcp="Louis Wang" firstno="0819 3840 4189" secondlink="http://wa.me/62895706970205" secondcp="Deirdre" secondno="0895 7069 70205" />
+        <Registration link="http://unesa.me/InformaticChampionshipEssay" />
         <Background />
       </div>
       <Footer />
